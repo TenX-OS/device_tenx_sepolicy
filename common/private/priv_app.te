@@ -1,2 +1,5 @@
 # Allow Settings to read theme_prop
 get_prop(priv_app, theme_prop)
+
+# OTA
+allow priv_app ota_package_file:dir create_dir_perms;
